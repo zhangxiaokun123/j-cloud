@@ -28,7 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="j-cloud" options="-parameters" />
       <module name="j-cloud-consumer-feign" options="" />
-      <module name="j-cloud-consumer-feign-hystrix" options="-parameters" />
+      <module name="j-cloud-consumer-feign-hystrix" options="" />
       <module name="j-cloud-provider1" options="-parameters" />
       <module name="j-cloud-provider2" options="-parameters" />
       <module name="j-cloud-sever-eureka" options="-parameters" />

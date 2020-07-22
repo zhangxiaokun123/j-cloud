@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5074fee-5145-4bc2-ba7d-7e9f0f4d8373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="b5074fee-5145-4bc2-ba7d-7e9f0f4d8373" name="Default Changelist" comment="Spring-Cloud新增hystrix">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_dashboard_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/feginservice/FeginClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/JCloudConsumerFeignHystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/JCloudConsumerFeignHystrixApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,15 +68,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j-cloud-sever-eureka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="74">
@@ -50,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="87">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -59,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/JCloudConsumerFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="121">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -83,6 +112,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/feginservice/FeginClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,32 +144,32 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/JCloudConsumerFeignHystrixApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/feginservice/FeginClient.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j-cloud-provider1/src/main/java/cn/jorian/framework/jcloudprovider1/JCloudProvider1Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j-cloud-sonsumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="7" selection-end-line="14" />
+            <state relative-caret-position="609">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -166,6 +213,11 @@
         <option value="$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/feginservice/FeginClient.java" />
         <option value="$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/JCloudConsumerFeignHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller.java" />
+        <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/feginservice/FeginClient.java" />
+        <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -182,10 +234,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="36" />
-    <option name="width" value="1068" />
-    <option name="height" value="687" />
+    <option name="x" value="65" />
+    <option name="y" value="1" />
+    <option name="width" value="1232" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +251,41 @@
             <path>
               <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +304,43 @@
               <item name="j-cloud-consumer-feign-hystrix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="j-cloud-consumer-feign-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="feginservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="j-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -238,8 +362,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -250,6 +376,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.cn.jorian.framework.controller" />
+      <recent name="cn.cn.jorian.framework.feginservice" />
       <recent name="cn.jorian.framework.controller" />
     </key>
   </component>
@@ -265,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.JCloudConsumerFeignApplication">
+  <component name="RunManager" selected="Spring Boot.JCloudConsumerFeignHystrixApplication">
     <configuration name="JCloudConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="j-cloud-consumer-feign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.jorian.framework.JCloudConsumerFeignApplication" />
@@ -327,7 +455,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595384853018</updated>
-      <workItem from="1595384855883" duration="9121000" />
+      <workItem from="1595384855883" duration="10034000" />
     </task>
     <task id="LOCAL-00001" summary="Spring-Cloud学习之路">
       <created>1595399123171</created>
@@ -336,14 +464,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595399123172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring-Cloud新增hystrix">
+      <created>1595400174948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595400174948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring-Cloud新增hystrix">
+      <created>1595400210220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595400210220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9121000" />
+    <option name="totallyTimeSpent" value="10034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="34" width="1068" height="687" extended-state="0" />
+    <frame x="112" y="0" width="1232" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -352,7 +494,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2688492" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25085324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -386,7 +528,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring-Cloud学习之路" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring-Cloud学习之路" />
+    <MESSAGE value="Spring-Cloud新增hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-Cloud新增hystrix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mvnw.cmd">
@@ -538,7 +681,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/test/java/cn/jorian/framework/JCloudConsumerFeignApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/feginservice/FeginClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
@@ -547,18 +724,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/JCloudConsumerFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="121">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/test/java/cn/jorian/framework/JCloudConsumerFeignApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/feginservice/FeginClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/JCloudConsumerFeignHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -578,23 +762,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign/src/main/java/cn/jorian/framework/feginservice/FeginClient.java">
+    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/java/cn/cn/jorian/framework/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" selection-start-line="23" selection-end-line="24" />
+        <state relative-caret-position="353">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
