@@ -45,7 +45,7 @@ public class HelloController {
     }
 
     public String hahaFailBack(){
-        return "您请求的数据没拿到，我是hystrix返回的默认数据--hahaxxxx";
+        return "您请求的数据没拿到，我是hystrix返回的默认数据--hahaxxxx1";
     }
 
 
