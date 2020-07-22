@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/j-cloud-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-sever-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-sonsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j-cloud-zuul" charset="UTF-8" />
   </component>
 </project>

@@ -9,6 +9,7 @@
         <module name="j-cloud-consumer-feign" />
         <module name="j-cloud-sonsumer" />
         <module name="j-cloud-sever-eureka" />
+        <module name="j-cloud-zuul" />
         <module name="j-cloud-consumer-feign-hystrix" />
         <module name="j-cloud-provider2" />
         <module name="j-cloud-provider1" />
@@ -22,6 +23,7 @@
       <module name="j-cloud-provider2" target="1.8" />
       <module name="j-cloud-sever-eureka" target="1.8" />
       <module name="j-cloud-sonsumer" target="1.8" />
+      <module name="j-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="j-cloud-provider2" options="-parameters" />
       <module name="j-cloud-sever-eureka" options="-parameters" />
       <module name="j-cloud-sonsumer" options="-parameters" />
+      <module name="j-cloud-zuul" options="" />
     </option>
   </component>
 </project>

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/j-cloud-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/j-cloud-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/j-cloud-consumer-feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/j-cloud-zuul/pom.xml" />
       </list>
     </option>
   </component>
