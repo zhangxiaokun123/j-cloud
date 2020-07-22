@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="j-cloud-consumer-feign" />
-        <module name="j-cloud-provider2" />
-        <module name="j-cloud-provider1" />
         <module name="j-cloud-sonsumer" />
         <module name="j-cloud-sever-eureka" />
+        <module name="j-cloud-consumer-feign-hystrix" />
+        <module name="j-cloud-provider2" />
+        <module name="j-cloud-provider1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="j-cloud" target="1.8" />
       <module name="j-cloud-consumer-feign" target="1.8" />
+      <module name="j-cloud-consumer-feign-hystrix" target="1.8" />
       <module name="j-cloud-provider1" target="1.8" />
       <module name="j-cloud-provider2" target="1.8" />
       <module name="j-cloud-sever-eureka" target="1.8" />
@@ -26,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="j-cloud" options="-parameters" />
       <module name="j-cloud-consumer-feign" options="" />
+      <module name="j-cloud-consumer-feign-hystrix" options="-parameters" />
       <module name="j-cloud-provider1" options="-parameters" />
       <module name="j-cloud-provider2" options="-parameters" />
       <module name="j-cloud-sever-eureka" options="-parameters" />

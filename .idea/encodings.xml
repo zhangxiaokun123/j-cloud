@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/j-cloud-consumer-feign-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-provider1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/j-cloud-sever-eureka" charset="UTF-8" />
